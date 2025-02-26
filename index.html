@@ -54,7 +54,17 @@
   <iframe id="player" src="https://6761633e1651d923124eab4b--illustrious-maamoul-8b5abb.netlify.app/player.html/?dtv=https://cdnt20.t20hd.cfd/live/m3-index.m3u8 " title="Live match video player" allowfullscreen=""></iframe>
 
   <a id="telegramBtn" href="https://t.me/+nJCypsY4VzlkZjdl" target="_blank">Join Our Telegram Channel</a>
-  <script>var joinTelegram = confirm("Join For More Links!!");
+<script>
+document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+}, false);
+
+document.addEventListener("keydown", function (e) {
+    if (e.ctrlKey && (e.key === "u" || e.key === "U" || e.key === "s" || e.key === "S" || e.key === "i" || e.key === "I")) {
+        e.preventDefault();
+    }
+}, false);
+</script>  <script>var joinTelegram = confirm("Join For More Links!!");
     if (joinTelegram) {
         window.location.href = "htte";
     }
